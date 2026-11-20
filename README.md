@@ -4,7 +4,7 @@ JClock+ is a separate offline Android app for Android 4.1 and later. It displays
 
 Tap the clock to show the pen on the left and **Settings** on the right. Both controls hide after five seconds of inactivity. Tap the pen to outline visible items. Drag an item with one finger or spread or pinch two fingers to resize it. For the divider, pinching adjusts the width. Tap the checkmark or press Back to exit editing. Changes save automatically.
 
-In **Settings**, choose an orientation or use **Auto**, and turn **Keep screen on** on or off. Each item has **Size**, **X position**, and **Y position** sliders. Positions run from the left or top edge at 0% to the right or bottom edge at 100%. Portrait and landscape store their layouts separately. The app limits each item to available screen space. The weekday box reserves the width of the longest name in both the clock and Pen mode.
+In **Settings**, choose an orientation or use **Auto**, and turn **Keep screen on** on or off. Each item has **Size**, **X position**, and **Y position** sliders. Positions run from the left or top edge at 0% to the right or bottom edge at 100%. Portrait and landscape store their layouts separately. The app limits each item to available screen space. The weekday box reserves the width of the longest name in both the clock and Pen mode. The artwork uses a short kashida in یـکشنبه and includes the supplied artwork for جمعه and شنبه.
 
 Turn **Show divider** on or off at the top of Settings and check the live preview. The **Divider** panel has width, thickness, position, and color controls.
 
