@@ -1,16 +1,38 @@
 # JClock+
 
-JClock+ is a separate offline Android app for Android 4.1 and later. It displays local 24-hour time with small seconds, a blinking colon, a Jalali date, and the Persian weekday. It uses thick seven-segment digits and seven weekday images typeset in Noto Kufi Arabic Bold. The clock uses software drawing for older tablets.
+JClock+ turns an Android phone or tablet into an offline desk clock. It shows local time in 24-hour format with large seven-segment digits, smaller seconds, a Jalali (Persian) date, and the weekday in Persian. It supports Android 4.1 and later.
+
+![JClock+ displaying 24-hour time, a Jalali date, and the Persian weekday on a black background](images/clock.png)
+
+## Seasonal backgrounds
+
+| Spring | Summer |
+| --- | --- |
+| ![Clock over a forest scene with spring blossoms](images/spring-theme.png) | ![Clock over a sunlit green summer forest](images/summer-theme.png) |
+
+| Autumn | Winter |
+| --- | --- |
+| ![Clock over orange autumn leaves](images/autumn-theme.png) | ![Clock over a snowy winter forest](images/winter-theme.png) |
+
+Under **Background**, choose **None** for pure black, **Seasonal** for the four built-in forest scenes, or **Custom** for photos from the device. Seasonal mode uses months 1–3, 4–6, 7–9, and 10–12 of the Jalali calendar for spring, summer, autumn, and winter. Custom photos can be shared across seasons or assigned individually. Unset slots use the built-in image. Use **Season** to follow the current Jalali season or pin a season for both the clock and the preview. A visible background shifts slightly left or right on alternate hours.
+
+## Customize the clock face
+
+| Clock controls | Editing the layout |
+| --- | --- |
+| ![Clock with the pen and Settings buttons visible](images/move-items.png) | ![Clock in edit mode with outlines around movable items](images/move-items2.png) |
 
 Tap the clock to show the pen on the left and **Settings** on the right. Both controls hide after five seconds of inactivity. Tap the pen to outline visible items. Drag an item with one finger or spread or pinch two fingers to resize it. For the divider, pinching adjusts the width. Tap the checkmark or press Back to exit editing. Changes save automatically.
+
+## Settings
+
+<img src="images/setting.png" alt="Clock settings with a live preview, background and dim schedule options, and sliders for size and position" width="320">
 
 In **Settings**, choose an orientation or use **Auto**, and turn **Keep screen on** on or off. Each item has **Size**, **X position**, and **Y position** sliders. Positions run from the left or top edge at 0% to the right or bottom edge at 100%. Portrait and landscape store their layouts separately. The app limits each item to available screen space. The weekday box reserves the width of the longest name in both the clock and Pen mode. The artwork uses a short kashida in یـکشنبه and includes the supplied artwork for جمعه and شنبه.
 
 Turn **Show divider** on or off at the top of Settings and check the live preview. The **Divider** panel has width, thickness, position, and color controls.
 
 Choose a **First color** and **Second color** for each item. Enabling **Dim schedule** uses the second colors and a black background from the start time until the end time, including overnight ranges. The selected background returns when dim mode ends. Disabling the schedule restores the first colors and the selected background throughout the day.
-
-Under **Background**, choose **None** for pure black, **Seasonal** for the four built-in forest scenes, or **Custom** for photos from the device. Seasonal mode uses months 1–3, 4–6, 7–9, and 10–12 of the Jalali calendar for spring, summer, autumn, and winter. Custom photos can be shared across seasons or assigned individually. Unset slots use the built-in image. Use **Season** to follow the current Jalali season or pin a season for both the clock and the preview. A visible background shifts slightly left or right on alternate hours.
 
 ## Build on Kubuntu or Ubuntu x86-64
 
@@ -100,6 +122,7 @@ Android then installs your build alongside the original with its own settings.
 - `src/` contains the Java code.
 - `assets/seasons/` contains the four built-in backgrounds.
 - `assets/weekdays/` contains the seven weekday label images.
+- `images/` contains the screenshots shown in this README.
 - `res/` contains the app name, theme, and launcher icons.
 - `AndroidManifest.xml` contains the package ID, app version, and Android compatibility settings.
 - `build.sh` compiles, packages, signs, and verifies the APK.
