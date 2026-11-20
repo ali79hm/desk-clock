@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">JClock+</string>
+    <color name="clock_background">#000000</color>
+    <style name="ClockTheme" parent="@android:style/Theme.Holo.NoActionBar">
+        <item name="android:windowBackground">@color/clock_background</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:colorBackground">@color/clock_background</item>
+    </style>
+</resources>
