@@ -2,6 +2,8 @@
 
 JClock+ turns an Android phone or tablet into an offline desk clock. It shows local time in 24-hour format with large seven-segment digits, smaller seconds, a Jalali (Persian) date, and the weekday in Persian. It supports Android 4.1 and later.
 
+[![Download APK](https://img.shields.io/badge/Download-APK-2ea44f?style=for-the-badge&logo=android&logoColor=white)](https://github.com/ali79hm/desk-clock/releases/latest) · [All releases](https://github.com/ali79hm/desk-clock/releases)
+
 ![JClock+ displaying 24-hour time, a Jalali date, and the Persian weekday on a black background](images/clock.png)
 
 ## Seasonal backgrounds
